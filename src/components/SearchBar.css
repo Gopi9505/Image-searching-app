@@ -1,0 +1,24 @@
+.search-bar{
+    width: 300px; 
+     margin: auto;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.search-bar form{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 80%;
+    height: 20px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+input:focus {
+    outline:none;
+}
